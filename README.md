@@ -1,66 +1,69 @@
-# Lab1Web — Praktikum 1: HTML Dasar
+PENJELASAN LANGKAH PRAKTIKUM
+1. Struktur Dasar HTML
+Membuat index.html dengan deklarasi <!DOCTYPE html>, elemen <head> berisi <title>, dan elemen <body> untuk konten.
+ <img width="816" height="426" alt="image" src="https://github.com/user-attachments/assets/8225e8a7-410a-41f3-a7a2-a59e79a696a9" />
+ 
+Penjelasan:
+Screenshot menunjukkan struktur dasar file index.html yang terdiri dari deklarasi <!DOCTYPE html>, elemen <html>, <head>, <title>, dan <body> sebagai kerangka awal dokumen HTML.
 
-**Nama:** Gina Mutmainah
-**NIM:** 312510490
-**Mata Kuliah:** Pemrograman Web
-**Universitas:** Universitas Pelita Bangsa
+2. Membuat Paragraf
+Menambahkan dua paragraf menggunakan tag <p> untuk menjelaskan isi praktikum.
+ <img width="815" height="427" alt="image" src="https://github.com/user-attachments/assets/bbe77f25-76a6-4584-a4d7-8bfb19a51722" />
 
-## Struktur Proyek
+Penjelasan:
+Screenshot menunjukkan dua paragraf yang telah ditambahkan menggunakan tag <p>. Paragraf tersebut berisi penjelasan mengenai pembelajaran HTML dasar pada praktikum.
+3. Menambahkan Judul
+Menambahkan heading <h1> sebagai judul utama dan <h2> sebagai subjudul.
+ <img width="853" height="480" alt="image" src="https://github.com/user-attachments/assets/164a573b-d498-44e7-a491-169ee3cd70a4" />
 
-```
-Lab1Web/
-├── index.html
-├── halaman2.html
-├── images/
-│   └── profil.jpeg
-└── README.md
-```
+Penjelasan:
+Screenshot menunjukkan penggunaan heading <h1> sebagai judul utama "Profil Mahasiswa" dan <h2> sebagai subjudul seperti "Data Diri", "Keahlian", dan "Target Belajar".
 
-## Penjelasan Langkah Praktikum
+4. Memformat Teks
+Mencoba tag pemformatan teks seperti <b>, <i>, <strong>, <mark>, <small>, <del>, <ins>, <sub>, dan <sup>.
+ <img width="838" height="437" alt="image" src="https://github.com/user-attachments/assets/118673bf-d0db-4b07-bbd2-f34ff8ccb54b" />
 
-1. **Struktur Dasar HTML** — Membuat `index.html` dengan deklarasi `<!DOCTYPE html>`, elemen `<head>` berisi `<title>`, dan elemen `<body>` untuk konten.
-2. **Membuat Paragraf** — Menambahkan dua paragraf menggunakan tag `<p>` untuk menjelaskan isi praktikum.
-3. **Menambahkan Judul** — Menambahkan heading `<h1>` sebagai judul utama dan `<h2>` sebagai subjudul.
-4. **Memformat Teks** — Mencoba tag pemformatan teks seperti `<b>`, `<i>`, `<strong>`, `<mark>`, `<small>`, `<del>`, `<ins>`, `<sub>`, dan `<sup>`.
-5. **Menyisipkan Gambar** — Menyisipkan gambar profil menggunakan tag `<img>` dengan atribut `src`, `width`, `alt`, dan `title`, disimpan pada folder `images/`.
-6. **Mengatur Ukuran Gambar** — Mengatur ukuran tampilan gambar dengan atribut `width`.
-7. **Menambahkan Hyperlink** — Membuat `halaman2.html` dan menghubungkannya dengan `index.html` menggunakan tag `<a>` beserta hyperlink eksternal ke Google.
-8. **Menambahkan List** — Membuat daftar keahlian dengan `<ul>` (unordered list) dan daftar target belajar dengan `<ol>` (ordered list).
-9. **Menambahkan Komentar** — Menambahkan komentar `<!-- ... -->` sebagai penanda bagian kode.
-10. **Menggabungkan Semua Elemen** — Menyusun seluruh elemen menjadi satu halaman profil mahasiswa yang utuh pada `index.html`.
+Penjelasan:
+Screenshot menunjukkan hasil penggunaan berbagai tag pemformatan teks. Terdapat teks tebal, miring, diberi penanda, berukuran lebih kecil, dicoret, disisipkan, serta penggunaan subscript dan superscript.
 
-## Jawaban Pertanyaan
+5. Menyisipkan Gambar
+Menyisipkan gambar profil menggunakan tag <img> dengan atribut src, width, alt, dan title, disimpan pada folder images/.
+  <img width="407" height="576" alt="image" src="https://github.com/user-attachments/assets/07f20324-826b-47fb-a0f2-8a379b53d19a" />
 
-**1. Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?**
-Deklarasi ini memberi tahu browser bahwa dokumen menggunakan standar HTML5, sehingga browser dapat merender halaman sesuai standar tersebut dan digunakan untuk validasi struktur dokumen.
+Penjelasan:
+Screenshot menunjukkan foto profil yang berhasil ditampilkan pada halaman web. Gambar menggunakan atribut src untuk menentukan lokasi file, width untuk ukuran gambar, alt sebagai teks alternatif, dan title sebagai keterangan gambar.
 
-**2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?**
-Tag adalah penanda pembuka/penutup yang ditulis dengan kurung siku (contoh `<p>` dan `</p>`). Elemen adalah gabungan dari tag pembuka, isi, dan tag penutup (contoh `<p>Isi</p>`). Atribut adalah informasi tambahan yang ditulis di dalam tag pembuka (contoh `src` pada `<img src="foto.jpg">`).
+6. Mengatur Ukuran Gambar
+Mengatur ukuran tampilan gambar dengan atribut width.
+ <img width="822" height="106" alt="image" src="https://github.com/user-attachments/assets/9c464f1a-dfdf-468d-9765-e8788210afdc" />
 
-**3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.**
-`<p>` membuat sebuah paragraf baru dengan jarak (margin) sebelum dan sesudahnya, sedangkan `<br>` hanya memberikan pindah baris tanpa membuat paragraf baru maupun jarak tambahan.
+Penjelasan:
+Screenshot menunjukkan ukuran gambar profil setelah diatur menggunakan atribut width. Pada praktikum ini ukuran gambar ditentukan agar tampil sesuai dengan kebutuhan halaman.
 
-**4. Apa fungsi atribut `href` pada tag `<a>`?**
-Atribut `href` menentukan alamat tujuan (URL atau path file) yang akan dituju ketika link diklik.
+7. Menambahkan Hyperlink
+Membuat halaman2.html dan menghubungkannya dengan index.html menggunakan tag <a> beserta hyperlink eksternal ke Pelitabangsa.
+ <img width="807" height="95" alt="image" src="https://github.com/user-attachments/assets/cf90adfd-b5a0-4447-9cd0-6b7af08c1442" />
 
-**5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?**
-Hyperlink internal mengarah ke file/halaman lain dalam proyek yang sama (contoh `halaman2.html`), sedangkan hyperlink eksternal mengarah ke alamat website di luar proyek, biasanya berupa URL lengkap (contoh `https://pelitabangsa.ac.id/`).
+Penjelasan:
+Screenshot menunjukkan hyperlink yang digunakan untuk berpindah dari index.html ke halaman2.html serta hyperlink eksternal yang mengarah ke website di luar proyek. Hyperlink dibuat menggunakan tag <a> dengan atribut href.
 
-**6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?**
-`src` menentukan lokasi/path file gambar yang akan ditampilkan, sedangkan `alt` memberikan teks alternatif yang muncul jika gambar gagal dimuat dan membantu aksesibilitas (misalnya untuk pembaca layar).
+8. Menambahkan List
+Membuat daftar keahlian dengan <ul> (unordered list) dan daftar target belajar dengan <ol> (ordered list).
+ <img width="940" height="190" alt="image" src="https://github.com/user-attachments/assets/ae3d0b9c-72cd-442b-91c6-0e0ec0d1f701" />
 
-**7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?**
-`<ul>` (unordered list) menampilkan daftar tanpa urutan/nomor, biasanya berupa bullet. `<ol>` (ordered list) menampilkan daftar berurutan dengan nomor, digunakan ketika urutan item penting.
+Penjelasan:
+Screenshot menunjukkan daftar keahlian yang dibuat menggunakan <ul> sehingga ditampilkan dalam bentuk bullet dan daftar target belajar menggunakan <ol> sehingga ditampilkan secara berurutan.
 
-**8. Apa yang terjadi jika path gambar pada atribut `src` salah?**
-Gambar tidak akan tampil di browser (biasanya muncul ikon gambar rusak), dan sebagai gantinya browser menampilkan teks dari atribut `alt` jika tersedia.
+9. Menambahkan Komentar
+Menambahkan komentar <!-- ... --> sebagai penanda bagian kode.
+ <img width="940" height="34" alt="image" src="https://github.com/user-attachments/assets/b0994a9a-1036-4470-8899-71dbfe6e20a6" />
 
-**9. Mengapa struktur heading `h1` sampai `h6` perlu digunakan secara terstruktur?**
-Struktur heading yang benar (dari `h1` sebagai judul utama hingga `h6` sebagai sub-sub judul) membantu pembaca dan mesin pencari memahami hierarki konten halaman, serta meningkatkan aksesibilitas dan SEO.
+Penjelasan:
+Screenshot menunjukkan komentar yang ditambahkan pada kode HTML sebagai penanda atau keterangan untuk bagian tertentu. Komentar tidak ditampilkan pada halaman web.
 
-**10. Apa fungsi komentar `<!-- ... -->` dalam kode HTML?**
-Komentar digunakan untuk memberi catatan/penjelasan pada kode tanpa ditampilkan di halaman web, dan juga dapat digunakan untuk menonaktifkan sementara bagian kode tertentu.
+10. Menggabungkan Semua Elemen
+Menyusun seluruh elemen menjadi satu halaman profil mahasiswa yang utuh pada index.html.
+ <img width="837" height="440" alt="image" src="https://github.com/user-attachments/assets/d09e2b22-9b7c-447c-923c-cf29de1f487e" />
 
-## Catatan
-
-Praktikum ini difokuskan pada HTML Dasar. CSS dan JavaScript akan dipelajari pada pertemuan berikutnya sesuai RPS.
+Penjelasan:
+Screenshot menunjukkan hasil akhir halaman index.html setelah seluruh latihan digabungkan. Halaman berisi navigasi, profil mahasiswa, gambar, paragraf, pemformatan teks, daftar keahlian, target belajar, dan hyperlink.
