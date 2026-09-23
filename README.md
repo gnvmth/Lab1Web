@@ -28,14 +28,14 @@ Screenshot menunjukkan hasil penggunaan berbagai tag pemformatan teks. Terdapat 
 
 5. Menyisipkan Gambar
 Menyisipkan gambar profil menggunakan tag <img> dengan atribut src, width, alt, dan title, disimpan pada folder images/.
-  <img width="407" height="576" alt="image" src="https://github.com/user-attachments/assets/07f20324-826b-47fb-a0f2-8a379b53d19a" />
-
+ <img width="822" height="106" alt="image" src="https://github.com/user-attachments/assets/9c464f1a-dfdf-468d-9765-e8788210afdc" />
+ 
 Penjelasan:
 Screenshot menunjukkan foto profil yang berhasil ditampilkan pada halaman web. Gambar menggunakan atribut src untuk menentukan lokasi file, width untuk ukuran gambar, alt sebagai teks alternatif, dan title sebagai keterangan gambar.
 
 6. Mengatur Ukuran Gambar
 Mengatur ukuran tampilan gambar dengan atribut width.
- <img width="822" height="106" alt="image" src="https://github.com/user-attachments/assets/9c464f1a-dfdf-468d-9765-e8788210afdc" />
+ <img width="407" height="576" alt="image" src="https://github.com/user-attachments/assets/07f20324-826b-47fb-a0f2-8a379b53d19a" />
 
 Penjelasan:
 Screenshot menunjukkan ukuran gambar profil setelah diatur menggunakan atribut width. Pada praktikum ini ukuran gambar ditentukan agar tampil sesuai dengan kebutuhan halaman.
